@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduction Website</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawosome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section start  -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt="" /></a>
+        <div class="nav_link" id="navLink">
+          <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="course.html">course</a></li>
+            <li><a href="blog.html">blog</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </div>
+        <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our certification & online programs</h1>
+    </section>
+    <!-- header section end  -->
+
+    <!-- blog section start -->
+    <section class="blog">
+      <div class="blog-info">
+        <div class="certification">
+          <div class="img">
+            <img src="eduford_img/certificate.jpg" alt="" />
+          </div>
+          <h1>our certificate</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minus
+            aliquid, id dolores voluptatum exercitationem sed doloremque
+            consequuntur ea, reiciendis eaque ad enim voluptate earum ullam
+            doloribus dignissimos temporibus delectus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minus
+            aliquid, id dolores voluptatum exercitationem sed doloremque
+            consequuntur ea, reiciendis eaque ad enim voluptate earum ullam
+            doloribus dignissimos temporibus delectus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minus
+            aliquid, id dolores voluptatum exercitationem sed doloremque
+            consequuntur ea, reiciendis eaque ad enim voluptate earum ullam
+            doloribus dignissimos temporibus delectus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minus
+            aliquid, id dolores voluptatum exercitationem sed doloremque
+            consequuntur ea, reiciendis eaque ad enim voluptate earum ullam
+            doloribus dignissimos temporibus delectus.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit minus
+            aliquid, id dolores voluptatum exercitationem sed doloremque
+            consequuntur ea, reiciendis eaque ad enim voluptate earum ullam
+            doloribus dignissimos temporibus delectus.
+          </p>
+          <br />
+          <div class="comment-section">
+            <div class="comment-box">
+              <h3>send your comment</h3>
+              <form comment-form>
+                <input type="text" placeholder="your name">
+              <input type="email" placeholder="your email">
+              <textarea rows="5" placeholder="your comment"></textarea>
+              <button class="red-btn">send comment</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <div class="program">
+          <div class="program-list">
+            <h1>post catagoris</h1>
+            <div>
+              <h3>machine learning</h3>
+              <p>20</p>
+            </div>
+            <div>
+              <h3>computer learning</h3>
+              <p>30</p>
+            </div>
+            <div>
+              <h3>textile learning</h3>
+              <p>15</p>
+            </div>
+            <div>
+              <h3>science learning</h3>
+              <p>25</p>
+            </div>
+            <div>
+              <h3>enviroment learning</h3>
+              <p>10</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section end -->
+
+    <!-- footer section start ---------------- -->
+    <section class="footer">
+      <h4>about us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, omnis
+        reiciendis ea corporis voluptatibus dolores magni porro odio nesciunt
+        ut.
+      </p>
+      <div class="icon">
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <p>Made by <i class="fa-solid fa-heart"></i> QodeTree</p>
+    </section>
+    <!-- footer section end ---------------- -->
+
+    <script>
+      var navLink = document.getElementById("navLink");
+
+      function showMenu() {
+        navLink.style.right = "0";
+      }
+      function hideMenu() {
+        navLink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
